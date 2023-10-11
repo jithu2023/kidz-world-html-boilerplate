@@ -1,0 +1,321 @@
+.row1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+
+    padding: 5px 10px;
+}
+
+.image-text1 {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+
+    padding: 5px 10px;
+}
+
+.image-text2 {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+
+    padding: 5px 10px;
+}
+
+.image-text3 {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+    padding: 5px 10px;
+}
+
+.discover1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space {
+    height: 100px;
+
+}
+
+button {
+    background-color: rgb(95, 147, 230);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: bold;
+
+
+}
+
+.small {
+    font-size: 12px;
+    text-align: left;
+    color: gray;
+}
+
+.lastrow {
+    background-color: black;
+    height: 200px;
+    color: aliceblue;
+
+}
+
+.fle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kristi {
+
+    border-radius: 100px;
+}
+
+@media screen and (max-width:700px) {
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    body {
+        margin: 0px;
+        border: 0px;
+    }
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+
+        padding: 5px 10px;
+    }
+
+    .image-text1 {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+
+        padding: 5px 10px;
+    }
+
+    .image-text2 {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+
+        padding: 5px 10px;
+    }
+
+    .image-text3 {
+        position: absolute;
+        top: 280px;
+        left: 20px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+
+        padding: 5px 10px;
+    }
+
+    .discover1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .space {
+        height: 100px;
+
+    }
+
+    button {
+        background-color: rgb(95, 147, 230);
+        border: none;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bold {
+        font-weight: bold;
+
+
+    }
+
+    .small {
+        font-size: 12px;
+        text-align: left;
+        color: gray;
+    }
+
+    .lastrow {
+        background-color: black;
+        height: 200px;
+        color: aliceblue;
+
+    }
+
+    .fle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .kristi {
+
+        border-radius: 100px;
+    }
+
+    @media screen and (max-width:700px) {
+        .row1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: rgb(95, 147, 230);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .image-container {
+            position: relative;
+            text-align: center;
+        }
+
+        .image-text {
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            font-size: 24px;
+            color: rgb(255, 255, 255);
+        }
+
+        .image-text1 {
+            top: 20%;
+        }
+
+        .image-text2 {
+            top: 30%;
+        }
+
+        .image-text3 {
+            top: 40%;
+            font-size: 16px;
+        }
+
+        .space {
+            height: 20px;
+        }
+
+        button {
+            background-color: rgb(95, 147, 230);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .small {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .lastrow {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .fle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .kristi {
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .discover1 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .image-text3{
+            display: none;
+        }
+
+    }
+}
